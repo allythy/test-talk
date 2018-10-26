@@ -1,0 +1,20 @@
+site_name: UnI-RN
+site_author: Allythy
+theme:
+    name: readthedocs
+    # custom_dir: custom_theme
+
+repo_url: https://github.com/allythy
+# edit_uri: ""
+
+nav:
+    - Inicio: index.md
+    - Sobre: about.md
+    - Exemplos:
+        - Validação: exemplos/validacao.md
+        - Automação: exemplos/coisas.md
+    - Versões:
+        - Notas: versoes/notas.md
+
+extra_css:
+    - css/extra.css
